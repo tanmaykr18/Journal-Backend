@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:3000", credentials: true })); // Allow frontend to connect
+app.use(cors({ origin: "https://silly-basbousa-005b0b.netlify.app", credentials: true })); // Allow frontend to connect
 
 // Routes
 app.use("/api/auth", authRoutes);
